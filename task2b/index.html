@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+ 
+    <h1>My first web page</h1>
+    <div></div>
+    <h2>What this is</h2>
+    <p>Welcome to my first webpage. I create a webpage  without the assistance of a webpage editor. Just my little text editor and a keen <b><i>UNDERSTANDING OF HTML</i></b></p>
+    <h2>Why this is</h2>
+    <ul>
+        <li>To learn HTML</li>
+        <li>List element</li>
+        <ol>
+            <li>Home</li>
+            <li>FAQ</li>
+            <li>Contact</li>
+            <li>About</li>
+          </ol>
+          <li>Here I have created ordered and unordered list</li>
+    </ul>
+    <h2>ZeusLearning.com</h2>
+    <a href="https://www.zeuslearning.com/ "  target="_blank" >This link will open zeuslearning.com in new tab</a>
+    <h2>On click of following image navigate to google.com</h2>
+    <a href="https://www.google.co.in/"><img src="\img\google-logo.0.0.jpg" alt="google" width="200px"></a>
+    <h3>Some random table</h3>
+    <table style="width:30%">
+        <tr>
+          <td>Row 1, Cell 1</td>
+          <td>Row 1, Cell 2</td>
+          <td>Row 1, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+            <td>Row 2, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, Cell 1</td>
+            <td>Row 3, Cell 2</td>
+            <td>Row 3, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 4, Cell 1</td>
+            <td>Row 4, Cell 2</td>
+            <td>Row 4, Cell 3</td>
+        </tr>
+      </table>
+      <h3>Some random form</h3>
+      <p><b><i>Note:</i></b> It looks the part but won't do it anything</p>
+      <form onsubmit="validate()">
+        <label for="fname">Name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Your name"><br>
+        <label for="comment">Comments:</label><br>
+        <textarea name="comments" placeholder="your comments " id="comment" cols="30" rows="10" ></textarea>
+        <p>Are you :</p>
+        <input type="radio" id="Male" name="fav_language" value="Male" >
+        <label for="html">Male</label><br>
+        <input type="radio" id="Female" name="fav_language" value="Female" >
+        <label for="css">Female</label><br>
+        <button type="submit" on>sumbit Query</button>
+      </form>
+
+<script>
+  function validate()
+  {
+    var fname = document.getElementById("fname");
+    var comment = document.getElementById("comment");
+
+    if(fname.value == "" || comments.value =="")
+  {
+    alert("All fields are compulsory");
+    return false;
+  }
+  else{
+  
+    true;
+  }
+  
+  }
+</script>
+
+</body>
+</html>
