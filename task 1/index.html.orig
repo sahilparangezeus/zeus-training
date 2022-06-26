@@ -78,8 +78,11 @@
             <p class="id">@moshhamedani</p>
         </div>
         <div>
+<<<<<<< HEAD
             <p class="pg">I'd love to teach you HTML/CSS!/js</p>
+=======
             <p class="pg">I'd love to teach you HTML/CSS!....Hii Sahil ...</p>
+>>>>>>> 954bfa89a5705e8ee4c30f77a06b1c65bc3b7d42
         </div>
         <div>
             <i class="fa-regular fa-comment"></i>
